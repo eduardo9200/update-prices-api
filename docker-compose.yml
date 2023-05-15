@@ -3,9 +3,9 @@ services:
   mysqlsrv:
     image: mysql:5.7
     environment:
-      MYSQL_USER: 'admin'
-      MYSQL_PASSWORD: 'Root@admin'     
-      MYSQL_ROOT_PASSWORD: "Root@admin"
+      MYSQL_USER: "admin"
+      MYSQL_PASSWORD: "RootAdmin123"
+      MYSQL_ROOT_PASSWORD: "RootAdmin123"
       MYSQL_DATABASE: "updatepricesdb"
     ports:
       - "3306:3306"
